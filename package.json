@@ -1,0 +1,47 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node --max-old-space-size=4096 node_modules/nuxt/bin/nuxt.mjs build",
+    "dev": "nuxt dev --host 3000",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview --host 3000",
+    "postinstall": "nuxt prepare"
+  },
+  "dependencies": {
+    "@ant-design/icons-vue": "^7.0.1",
+    "@ckeditor/ckeditor5-vue": "^5.1.0",
+    "@iconify/json": "^2.2.211",
+    "@nuxt/ui": "^2.15.2",
+    "@pinia/nuxt": "^0.5.1",
+    "ant-design-vue": "^4.1.2",
+    "ckeditor5-custom-build": "file:ckeditor5",
+    "dayjs": "^1.11.11",
+    "highcharts": "^11.4.6",
+    "highcharts-vue": "^2.0.1",
+    "jwt-decode": "^4.0.0",
+    "lodash.debounce": "^4.0.8",
+    "nuxt": "^3.11.2",
+    "nuxt-highcharts": "^3.1.1",
+    "nuxt-vue3-google-signin": "^0.0.11",
+    "pinia": "^2.1.7",
+    "pinia-plugin-persistedstate": "^3.2.1",
+    "swiper": "^11.1.1",
+    "vee-validate": "^4.12.6",
+    "vue": "^3.4.21",
+    "vue-avatar-editor-improved": "^1.0.7",
+    "vue-router": "^4.3.0",
+    "vue3-otp-input": "^0.5.2",
+    "yup": "^1.4.0"
+  },
+  "devDependencies": {
+    "@ant-design-vue/nuxt": "^1.4.1",
+    "@ant-design/compatible": "^5.1.2",
+    "@iconify/vue": "^4.1.2",
+    "@nuxtjs/color-mode": "^3.4.0",
+    "@nuxtjs/tailwindcss": "^6.11.4",
+    "@pinia-plugin-persistedstate/nuxt": "^1.2.0",
+    "dayjs-nuxt": "^2.1.9"
+  }
+}

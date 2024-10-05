@@ -1,0 +1,3 @@
+interface IBook { // In đầu 2 chữ cái thêm I...
+    id :String
+}

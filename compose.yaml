@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  readstation_client:
+    image: readstation_client
+    build: .
+    container_name: readstation_client
+    restart: always
+    environment:
+      - PORT=3000
+    ports:
+      - '3000:3000'
